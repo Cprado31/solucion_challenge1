@@ -1,0 +1,111 @@
+body{
+    margin: 0; /*establece el margen para los cuatro lados*/
+    padding: 0; /*El área de padding es el espacio entre el contenido del elemento y su borde*/
+    background: #f3f5fc;
+}
+.contenedor{
+    margin: auto;
+    width: 960px;
+    height: 650px;
+    padding: 5px;
+    /*background: blue;*/
+}
+.logo{
+    width: 100%;
+    float: left; /*logo flotara del lado izquierdo*/
+    /*background: red;*/
+}
+.izquierda{
+    float: left; /*el panel floatará en el lado izquierdo*/
+    width: 70%;
+    height: 65%;
+    border-radius: 24px;
+    /*background: yellow;*/
+}
+.derecha{
+    float: right; /*el panel floatará en el lado derecho*/
+    width: 30%;
+    height: auto;
+    border-radius: 24px;
+    background: white; 
+}
+.contenedor-botones{
+    float: left;
+    width: 70%;
+    height: auto;
+    border-radius: 24px;
+    /*background: pink;*/
+}
+.aviso{
+    font-size: 12px;
+     text-align: center;
+}
+.logo-alura{
+    margin-top: 1%;
+    margin-left: 5%;
+    float: inherit;
+}
+.tiutlo{
+    float: inherit;
+    margin-left: 20%;
+}
+.text-input{
+    float: left;
+    margin-left: 10%;
+    margin-top: 10%;
+    width: 80%;
+    height: 80%;
+    color: #0A3871;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    background: #f3f5fd;
+}
+#imgMunheco{
+    margin-top: 20%;
+    margin-left: 2%;
+    width: 90%;
+    height: auto;
+}
+#texto{
+    margin-left: 7%;
+    margin-right: 5%;
+}
+#texto2{
+    float: left;
+    margin-left: 10%;
+    color: #0A3871;
+    width: 80%;
+    height: 60%;
+    border: none;
+    outline: none;
+    font-size: 15X;
+}
+#boton-encriptar{
+    padding: 15px;
+    width: 30%;
+    height: 60%;
+    border-radius: 24px;
+    margin-left: 15%;
+    background: #0A3871;
+    color: white;
+}
+#boton-desencriptar{
+    padding: 15px;
+    width: 30%;
+    height: 60%;
+    border-radius: 24px;
+    margin-left: 10%;
+    background: #D8DFE8;
+}
+#copiar{
+    margin-left: 33%;
+    margin-top: 90%;
+    padding: 24px;
+    width: 40%;
+    height: 10%;
+    background: #D8DFE8;
+    border-radius: 24px;
+    display: none; 
+}
+
